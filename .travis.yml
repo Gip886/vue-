@@ -1,10 +1,10 @@
 language: node_js
 node_js:
   - lts/*
+before_install：
+  - cd music-vue前端
 install:
   - npm ci
-before_script:
-  - cd music-vue前端
 script:
   - npm run build
 deploy:
