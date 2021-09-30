@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - lts/*
 before_install:
-  - cd music-vue前端
+  - cd ./music-vue前端
 install:
   - npm ci
 script:
