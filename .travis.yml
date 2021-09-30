@@ -1,8 +1,7 @@
 language: node_js
 node_js: stable
-before_install:
-  - cd ./music-vue&#x524D;&#x7AEF;/
 install:
+  - cd ./music-vue&#x524D;&#x7AEF;/
   - npm install
 script:
   - npm run build
