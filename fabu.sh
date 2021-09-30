@@ -1,4 +1,4 @@
-cd ./music-vue&#x524D;&#x7AEF;/
+cd ./music-vue前端/
 npm install
 npm run build
 
