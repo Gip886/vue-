@@ -3,7 +3,7 @@ node_js: stable
 before_install:
   - cd ./music-vue&#x524D;&#x7AEF;/
 install:
-  - npm ci
+  - npm install
 script:
   - npm run build
 deploy:
